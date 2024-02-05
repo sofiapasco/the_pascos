@@ -1,0 +1,290 @@
+body{
+    background-color: rgba(240, 243, 240, 0.306);
+    margin: 0%;
+
+
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(typsnitt/RobotoMono-Regular.ttf);
+    
+}
+
+@media only screen and (max-width: 430px) {
+ 
+
+    .meny > a{
+         display: none;
+    }
+
+     h2 {
+        font-size: 30px;
+    }
+
+    #chill {
+        display: none; 
+    }
+    
+    .text-content{
+        display: block;
+    }
+
+    
+
+
+   
+}
+
+@media only screen and (min-width: 430px) and (max-width: 992px) {
+    
+    .text1 > p {
+        width: 380px;
+    }
+    .meny > a{
+         display: none;
+    }
+
+
+    #information h2  {
+        font-size: 38px;
+    }
+
+    #chill {
+        display: none; 
+    }
+    
+}
+
+
+@media only screen and (min-width: 993px) {
+    
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 800px;
+    background-image:url(bilder/najell.JPG);
+}
+    
+h1 > a{
+    font-family:"Roboto";
+    letter-spacing: 7px;
+    padding-left: 2rem;  
+    width: 100%;
+    padding-bottom: 700px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    display: flex;
+}
+
+.meny > a{
+
+    font-family: "Roboto";
+    text-decoration: none;
+    padding: 3rem;
+    letter-spacing: 3px;
+   
+    color: #FFFFFF;
+}
+
+.meny{
+    height: 700px;
+}
+
+h2{
+    font-family:"Roboto";
+    font-size: 75px;
+    padding: 5rem;
+    padding-left: 30%;
+    letter-spacing: 5px;
+}
+
+
+.text-content> h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3rem;
+    letter-spacing: 2px;
+     
+}
+
+.text1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem;
+    padding-bottom: 15%;   
+    
+}
+
+.chill{
+    padding-top: 10;
+     padding: 4rem;
+     width: 500px;
+    height: 800px;
+   
+}
+
+.text-content> p{
+    font-family: "Roboto";
+    padding-left: 3rem;
+
+}
+
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.bloggen{
+    background-color: rgb(190, 192, 189);
+    padding-top: 10%;
+    padding-bottom: 10%;  
+}
+
+.bloggen > h3{
+
+    font-size: larger;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    padding-left: 2rem;
+    word-spacing: 2px;
+    font-size: 20px;
+  
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+
+.bilder > img{
+    width: 600px;
+    height: 900px;
+    padding-left: 4rem;
+}
+
+.bilder >p {
+    font-family:"Roboto";
+    font-size: 13px;
+    width: 300px;
+    height: 400px;
+    letter-spacing: 2px;
+    padding-left: 10rem;
+    padding-top: 20%;
+    word-spacing: 3px;
+    font-size: 12px;
+
+    font-style: italic;
+    text-align: end;
+       
+}
+
+.bilder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+#formContact{
+    padding-left: 10%;
+}
+
+#formId{
+    font-size: 20px;
+    padding-left: 10%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+   display: flex;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
+#submit {
+    background-color: #221e13;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#formContact {
+    display: flex; 
+    align-items: center; 
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.form-container {
+    width: 50%; 
+}
+
+.error-msg {
+    display: none; 
+    color: red; 
+}
+
+.contactImage{
+    width: 600px;
+    height: 900px;
+}
+
+
+.socialMedia {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    margin: 10px; 
+    cursor: pointer; 
+}
+
+.formAlert {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: lightgray;
+    padding: 15%; 
+}
+
+.footerInfo p{
+    text-align: center;
+    font-family: "Roboto";
+    font-size:small;
+}
+
